@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const userModel = require("./models/user.model");
 const port = 3000;
 const dbURL =
-  "mongodb+srv://fish:fish@cluster0.lvt57qr.mongodb.net/?appName=Cluster0";
+  "mongodb+srv://<username>:<add_password>@cluster0.lvt57qr.mongodb.net/?appName=Cluster0";
 
 app.set("view engine", "ejs");
 
